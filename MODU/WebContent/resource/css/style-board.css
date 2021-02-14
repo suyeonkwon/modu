@@ -1,0 +1,147 @@
+@charset "EUC-KR";
+/*board*/
+	#sort{
+		position:relative;
+		left:55px;
+		top:-20px;
+		width:100px;
+		height:30px;
+	}
+	p{
+		display:inline-block;
+	}
+	#searchbox, #searchbt{
+		width:400px;
+		height:50px;
+		padding:0;
+		display:inline-block;
+		float:left;	
+	}
+	#searchbox{
+		z-index:2;
+		border:0 none;
+	}
+	#searchbt{
+    z-index: 1;
+    width: 50px;
+    border: 0 none;
+    cursor: pointer;
+    border-radius: 0 6px 6px 0;
+    /* -webkit-transform: translate(-50px, 0); */
+    -ms-transform: translate(-50px, 0);
+    /* transform: translate(-50px, 0); */
+    -webkit-transition-duration: 0.3s;
+    transition-duration: 0.3s;
+
+	}
+
+	.profile img {
+	    width: 30px;
+	    height: 30px;
+	    border-radius: 150px;
+	}
+
+
+	.like img {
+	    width: 30px;
+	    height: 30px;
+	}
+
+	.img {
+    position: relative;
+    height: 200px;
+    background-size: cover;
+    border-radius: 10px;
+}
+
+.img .content {
+    font-size: 14px;
+    color: #ffffff;
+    z-index: 2;
+}
+
+.pro , .place {
+    font-size: 14px;
+    margin: 1% 0;
+}
+
+.subject {
+    font-weight: 900;
+}
+
+.tripdetail {
+    padding: 0.5%;
+}
+.img .content h5{
+    color: #ffffff;
+    display: inline-block;
+    margin: 1%;
+   }
+.trip {
+    width: 20%;
+    margin: 1% 2.4%;
+    display: inline-block;
+}
+#shareZone {
+    padding: 0 10%;
+}
+	#imgbox{
+		padding:0 0 0 0;
+	}
+
+/*info*/
+	table{
+		width:100%;
+	}
+	img.profile {
+	    width: 40px;
+	    height: 40px;
+	    border-radius: 150px;
+	}
+	img.like {
+	    width: 40px;
+	    height: 40px;
+	}
+	img.book {
+	    width: 30px;
+	    height: 30px;
+	}
+	th#title {
+	    font-weight: 540;
+	    font-size: 20px;
+	        font-weight: 600;
+	}
+td#content {
+    border-top: 1px solid darkgray;
+    text-align:center;
+    font-size:15px;
+}
+th#regdate, th#likebook, td.time {
+    text-align: right;
+}
+/*search*/
+
+
+/*write*/
+	#write{
+		background-color: #fe6667;
+		color:#ffffff;
+	}
+	select#category {
+    	width: 150px;
+	}
+input#city, #place {
+    width: 80%;
+    display: inline-block;
+}
+input.search {
+    background-color: #FE6667;
+    color: #ffffff;
+}
+	#submitzone{
+		text-align:center;
+	}
+	td {
+	    background-color: white;
+	    width: 30px;
+	}

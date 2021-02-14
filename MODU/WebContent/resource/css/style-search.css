@@ -1,0 +1,12 @@
+@charset "EUC-KR";
+.search input#locationTextField {
+    width: 70%;
+    display: inline-block;
+}
+.search input#searchbt {
+    height: 2em;
+    line-height: 0;
+}
+.search div {
+    margin-bottom: 40%;
+}

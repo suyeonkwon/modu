@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="euc-kr"?>
+<!-- /WEB-INF/decorators.xml -->
+<decorators defaultdir="/resource">
+	<decorator name="main" page="layout.jsp">
+		<pattern>/plan/*</pattern>
+		<pattern>/main/*</pattern>
+		<pattern>/board/*</pattern>
+		<pattern>/member/*</pattern>
+	</decorator>	
+	<excludes>
+		<pattern>/plan/addTripForm*</pattern>
+		<pattern>/plan/addplan*</pattern>
+		<pattern>/plan/shareForm*</pattern>
+		<pattern>/plan/searchForm*</pattern>
+		<pattern>/plan/map*</pattern>
+		<pattern>/plan/updateTripForm*</pattern>
+		<pattern>/plan/updateplanForm*</pattern>
+		<pattern>/member/joinForm*</pattern>
+		<pattern>/member/loginForm*</pattern>
+		<pattern>/member/pictureForm*</pattern>
+		<pattern>/member/picture*</pattern>
+		<pattern>/member/updateMemberForm*</pattern>
+		<pattern>/member/updatePwForm*</pattern>
+		<pattern>/member/find*</pattern>
+		<pattern>/member/sendMail*</pattern>
+		<pattern>/board/searchForm*</pattern>
+		<pattern>/ajax/*</pattern>
+	</excludes>
+</decorators>
