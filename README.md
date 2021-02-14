@@ -4,7 +4,9 @@
 
 여행 계획 & 후기 공유 사이트 
 
-![캡처](C:\Users\ka790\OneDrive\바탕 화면\캡처.PNG)
+
+<img width="758" alt="moduMain" src="https://user-images.githubusercontent.com/79051126/107883342-da363b80-6f31-11eb-9ac1-76508d9e069c.PNG">
+
 
 ### Built With
 
